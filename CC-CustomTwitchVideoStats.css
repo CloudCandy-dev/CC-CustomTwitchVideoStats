@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* ==UserStyle==
+@name           CloudCandy
+@namespace      CloudCandy/CC-CustomTwitchVideoStats
+@version        0.0.1
+@description    CSS to customise Twitch video stats.
+@author         CloudCandy
+==/UserStyle== */
+
+/* settings(color and display) */
+:root {
+    --settiing_background: #ffffff21; /* 背景色 */
+    --settiing_ItemDisplayFlag_1: none; /* 表頭 */
+    --settiing_ItemDisplayFlag_2: none; /* ダウンロード解像度 */
+    --settiing_ItemDisplayFlag_3: none; /* レンダリング解像度 */
+    --settiing_ItemDisplayFlag_4: none; /* ビューポート解像度 */
+    --settiing_ItemDisplayFlag_5: none; /* ダウンロードビットレート */
+    --settiing_ItemDisplayFlag_6: none; /* 予測帯域幅 */
+    --settiing_ItemDisplayFlag_7: none; /* FPS */
+    --settiing_ItemDisplayFlag_8: none; /* フレームスキップ数 */
+    --settiing_ItemDisplayFlag_9: block; /* バッファサイズ */
+    --settiing_ItemDisplayFlag_10: block; /* 配信遅延時間 */
+    --settiing_ItemDisplayFlag_11: none; /* コーデック */
+    --settiing_ItemDisplayFlag_12: none; /* プロトコル */
+    --settiing_ItemDisplayFlag_13: block; /* 遅延モード */
+    --settiing_ItemDisplayFlag_14: none; /* レンダリングサーフェイス */
+    --settiing_ItemDisplayFlag_15: none; /* バックエンドバージョン */
+    --settiing_ItemDisplayFlag_16: none; /* プレイセッションID */
+    --settiing_ItemDisplayFlag_17: none; /* サービングID */
+}
+
+/*Background*/
+.ibyWQL {
+    background-color: var(--settiing_background)!important;
+}
+.esIXC {
+    background-color: var(--settiing_background)!important;
+    display:var(--settiing_ItemDisplayFlag_1)!important;
+}
+
+/*stats*/
+/*ダウンロード解像度*/
+tbody tr:nth-child(1){
+    display:var(--settiing_ItemDisplayFlag_2)!important;
+}
+/*レンダリング解像度*/
+tbody tr:nth-child(2){
+    display:var(--settiing_ItemDisplayFlag_3)!important;
+}
+    /*ビューポート解像度*/
+tbody tr:nth-child(3){
+    display:var(--settiing_ItemDisplayFlag_4)!important;
+}    
+/*ダウンロードビットレート*/
+tbody tr:nth-child(4){
+    display:var(--settiing_ItemDisplayFlag_5)!important;
+}    
+/*予測帯域幅*/
+tbody tr:nth-child(5){
+    display:var(--settiing_ItemDisplayFlag_6)!important;
+}    
+/*FPS*/
+tbody tr:nth-child(6){
+    display:var(--settiing_ItemDisplayFlag_7)!important;
+}    
+/*フレームスキップ数*/
+tbody tr:nth-child(7){
+    display:var(--settiing_ItemDisplayFlag_8)!important;
+}    
+/*バッファサイズ*/
+tbody tr:nth-child(8){
+    display:var(--settiing_ItemDisplayFlag_9)!important;
+}
+/*配信遅延時間*/
+tbody tr:nth-child(9){
+    display:var(--settiing_ItemDisplayFlag_10)!important;
+}
+/*コーデック*/
+tbody tr:nth-child(10){
+    display:var(--settiing_ItemDisplayFlag_11)!important;
+}
+/*プロトコル*/
+tbody tr:nth-child(11){
+    display:var(--settiing_ItemDisplayFlag_12)!important;
+}
+/*遅延モード*/
+tbody tr:nth-child(12){
+    display:var(--settiing_ItemDisplayFlag_13)!important;
+}
+/*レンダリングサーフェイス*/
+tbody tr:nth-child(13){
+    display:var(--settiing_ItemDisplayFlag_14)!important;
+}
+/*バックエンドバージョン*/
+tbody tr:nth-child(14){
+    display:var(--settiing_ItemDisplayFlag_15)!important;
+}
+/*プレイセッションID*/
+tbody tr:nth-child(15){
+    display:var(--settiing_ItemDisplayFlag_16)!important;
+}
+/*サービングID*/
+tbody tr:nth-child(16){
+    display:var(--settiing_ItemDisplayFlag_17)!important;
+}
